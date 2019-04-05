@@ -1,2 +1,368 @@
-# index.html
-prova janaine
++<!DOCTYPE html>
+<meta http-equiv="Content-Language" content="pt-br">
+<html>
+<title> Teste </title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+<style>
+.container{
+padding-top:100px;
+padding-bottom:280px;
+}
+h1 {
+    text-align: center;
+}
+.embed-responsive embed-responsive-16by9{
+padding-top:250px;
+}
+<!--- scroll -->
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+<!-- fim do scroll -->
+
+</style>
+
+<header>
+<!--- codigo navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Velozes e furiosos </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#atores">Atores Principais</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sobre">Sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#filme" tabindex="-1" aria-disabled="true">Trailer</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link " href="#tabela" tabindex="-1" aria-disabled="true">Tabela</a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<body>
+<!-- botao do scroll -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</button>
+
+<!-- fim -->
+
+
+<!-- carousel--->
+<div id="carouselsite" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-fluid d-block" src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1504/Fast-and-Furious-7-HD_1920x1080.jpg" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://wallpaperaccess.com/full/198719.jpg" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://s2.glbimg.com/43tcQZY6r_4XptjjBBoakvPGikw=/e.glbimg.com/og/ed/f/original/2017/04/11/g99358.jpg" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselsite" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselsite" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+<!--terminou o carousel -->
+
+<!--começou o card-->
+
+<div class="container"id="atores">
+
+<h1> ATORES PRINCIPAIS </h1>
+&nbsp;
+   <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+              <img src="https://cdn.pensador.com/img/authors/vi/nd/vin-diesel-l.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Vin Diesel</h5>
+                <p class="card-text">Mark Sinclair Vincent, mais conhecido como Vin Diesel (Condado de Alameda, 18 de julho de 1967) é um ator, roteirista e produtor de cinema norte-americano.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nome completo	Mark Sinclair</li>
+                <li class="list-group-item">Nascimento:18 de julho de 1967 (51 anos)
+Condado de Alameda, Califórnia, Estados Unidos</li>
+                <li class="list-group-item">Ocupação: Ator, produtor, diretor e roteirista</li>
+              </ul>
+              <!-- <div class="card-body"> -->
+                <!-- <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+              <!-- </div> -->
+            </div>
+			
+		
+			
+		  <div class="card" style="width: 18rem;">
+              <img src="https://s1.r29static.com//bin/entry/935/720x864,85/2003943/image.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> Paul Walker</h5>
+                <p class="card-text">Paul William Walker IV (Glendale, 12 de setembro de 1973 - Santa Clarita, 30 de novembro de 2013) foi um ator norte-americano. Tornou-se conhecido em 2001 após interpretar Brian O'Conner no filme The Fast and the Furious .</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nome completo: Paul William Walker IV</li>
+                <li class="list-group-item">Nascimento 12 de setembro de 1973
+Glendale, Califórnia
+ Estados Unidos</li>
+                <li class="list-group-item">Ocupação: ator</li>
+              </ul>
+              <!-- <div class="card-body"> -->
+                <!-- <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+              <!-- </div> -->
+            </div>
+			  <div class="card" style="width: 18rem;">
+              <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2016%2F10%2F102616-jordana-brewster.jpg%3Fitok%3DLdrAFoA1&w=400&c=sc&poi=face&q=85" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jordana Brewster</h5>
+                <p class="card-text">Jordana Brewster (Cidade do Panamá, 26 de abril de 1980) é uma atriz e modelo norte-americana, nascida no Panamá. É mais conhecida por fazer parte do elenco do filme Velozes e Furiosos e por pertencer ao elenco principal da continuação da série Dallas, entre 2012 e 2014..</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nome completo: Jordana Brewster
+                <li class="list-group-item">Nascimento	26 de abril de 1980 (38 anos)
+Cidade do Panamá,  Panamá
+brasileira</li>
+               <li class="list-group-item">Ocupação: Atriz, modelo</li>
+              </ul>
+			
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<!--terminou o card -->
+
+<!-- tabela -->
+<h1>  INFORMA&Ccedil;ÃO SOBRE OS FILMES </h1>
+<section class="tabela"id="tabela">
+<div class="container">
+  <div class="row">
+    <div class="col">
+       
+    </div>
+    <div class="col-7">
+      <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Filme</th>
+	   <th scope="col">Data de lançamento</th>
+      <th scope="col">Orçamento</th>
+      <th scope="col">Arrecadamento</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Velozes e Furiosos </td>
+	  <td>22 de junho de 2001</td>
+      <td>$38 milhoes</td>
+      <td>$207.283.925</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>+ Velozes + Furiosos</td>
+	  <td>6 de junho de 2003</td>
+      <td>$76 milhoes</td>
+      <td>$236.350.661</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Velozes e Furiosos: Desafio em Tóquio </td>
+	  <td>16 de junho de 2006</td>
+      <td>$85 milhões</td>
+      <td>$158.468.292</td>
+    </tr>
+	<tr>
+      <th scope="row">4</th>
+      <td>Velozes e furiosos 4</td>
+	  <td>29 de abril de 2011</td>
+      <td>$85 milhões</td>
+      <td>$363.164.265</td>
+    </tr>
+	<tr>
+      <th scope="row">5</th>
+      <td>Velozes e Furiosos 5: Operação Rio </td>
+	    <td>24 de maio de 2013</td>
+      <td>$125 milhões</td>
+      <td>$626.137.675</td>
+    </tr>
+	<tr>
+      <th scope="row">6</th>
+      <td>Velozes e Furiosos 6</td>
+	  <td>24 de maio de 2013</td>
+      <td>$160 milhões</td>
+      <td>$788.679.850</td>
+    </tr>
+	      <th scope="row">7</th>
+      <td>Velozes e Furiosos 7</td>
+	  <td>3 de abril de 2015</td>
+      <td>$190 milhões</td>
+      <td>$1.516.045.911</td>
+	   </tr>
+	     <th scope="row">8</th>
+      <td>Velozes e Furiosos 8</td>
+	  <td>14 de abril de 2017</td>
+      <td>$250 milhões</td>
+      <td>$1.236.005.118</td>
+	 
+	    </tr>
+  </tbody>
+</table>
+
+    </div>
+    <div class="col">
+      
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+     </section>
+<!-- terminou tabela -->
+
+<!-- começou o media object -->
+<h1>  CARROS </h1>
+<div class="container"id="sobre">
+  <div class="media">
+  <div class="media-left media-top">
+    <img src="http://cdn.shopify.com/s/files/1/1959/2639/products/HD02_REV1_38b2db5f-ad73-46ce-a3cd-1837fc2609b1_1024x1024.jpg?v=1512827147" class="media-object" style="width:150px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"> Sky line </h4>
+    <p>teste teste teste teste teste teste teste teste teste teste teste teste</p>
+  </div>
+</div>
+
+<!-- Media middle -->
+<div class="media">
+  <div class="media-left media-middle">
+    <img src="https://www.tomotorsports.com/image/cache/data/GreenLight/GLGL19041a-600x600.jpg" class="media-object" style="width:150px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"> Sky line</h4>
+    <p>teste teste teste teste teste teste teste teste teste teste teste teste</p>
+  </div>
+</div>
+
+<!-- Media bottom -->
+<div class="media">
+  <div class="media-left media-bottom">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/718%2BMQ2dR8L._SX466_.jpg" class="media-object" style="width:150px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"> Sky line </h4>
+    <p>teste teste teste teste teste teste teste teste teste teste teste teste</p>
+  </div>
+
+</div>
+    </div>
+  </div>
+</div>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<!-- terminou o media object -->
+
+<!--link do filme -->
+&nbsp;
+<div class="container"id="filme">
+  <div class="row">
+    <div class="embed-responsive embed-responsive-16by9"id="filme">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iEySKRaa7TU" allowfullscreen></iframe>
+</div>
+  </div>
+</div>
+<!-- script para o scrool -->
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+<!--script
+
+
+
+</body>
+
+<footer>
+
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
